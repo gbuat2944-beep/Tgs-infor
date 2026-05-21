@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil UIN Suska Riau</title>
+    <style>
+        :root {
+            --primary-color: #0d5c3a; /* Hijau khas UIN */
+            --secondary-color: #f4f9f4;
+            --text-color: #333;
+            --accent-color: #e67e22;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+            color: var(--text-color);
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.2rem;
+        }
+
+        header p {
+            margin: 0.5rem 0 0 0;
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+
+        section {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 0.3rem;
+            margin-top: 0;
+        }
+
+        ul {
+            padding-left: 1.2rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        strong {
+            color: #111;
+        }
+
+        .blockquote {
+            background-color: var(--secondary-color);
+            border-left: 5px solid var(--primary-color);
+            padding: 1rem;
+            margin: 1.5rem 0;
+            font-style: italic;
+            border-radius: 0 8px 8px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: #222;
+            color: #aaa;
+            font-size: 0.9rem;
+            margin-top: 3rem;
+        }
+
+        /* Responsif untuk HP */
+        @media (max-width: 600px) {
+            header h1 { font-size: 1.8rem; }
+            section { padding: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>UIN Suska Riau</h1>
+        <p>Universitas Islam Negeri Sultan Syarif Kasim Riau</p>
+    </header>
+
+    <div class="container">
+
+        <section>
+            <h2>Sekilas Tentang UIN Suska Riau</h2>
+            <p>Universitas Islam Negeri Sultan Syarif Kasim Riau—atau yang lebih populer dikenal sebagai <strong>UIN Suska Riau</strong> (UIN Pekanbaru)—adalah salah satu Perguruan Tinggi Keagamaan Islam Negeri (PTKIN) terkemuka di Sumatra.</p>
+            <p>UIN Suska Riau merupakan transformasi dari IAIN Sultan Syarif Qasim yang resmi beralih status menjadi Universitas Negeri pada tahun 2005. Nama kampus ini diambil dari nama pahlawan nasional asal Riau, Sultan Syarif Kasim II.</p>
+        </section>
+
+        <section>
+            <h2>Lokasi Kampus</h2>
+            <ul>
+                <li><strong>Kampus Utama (Kampus Panam):</strong> Terletak di Jl. H.R. Soebrantas KM 15, Tuah Madani. Menjadi pusat dari hampir seluruh fakultas, gedung rektorat, perpustakaan pusat, dan masjid kampus.</li>
+                <li><strong>Kampus Sukajadi:</strong> Terletak di pusat kota Pekanbaru (Jl. KH. Ahmad Dahlan). Kampus historis yang kini digunakan untuk program Pascasarjana (S2/S3).</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Fakultas</h2>
+            <p>UIN Suska mengelola 8 Fakultas dan 1 Program Pascasarjana:</p>
+            <ul>
+                <li>Fakultas Tarbiyah dan Keguruan (FTK)</li>
+                <li>Fakultas Syariah dan Hukum (FSH)</li>
+                <li>Fakultas Ushuluddin (FU)</li>
+                <li>Fakultas Dakwah dan Komunikasi (FDK)</li>
+                <li>Fakultas Sains dan Teknologi (FST)</li>
+                <li>Fakultas Psikologi (FPsi)</li>
+                <li>Fakultas Ekonomi dan Ilmu Sosial (FEIS)</li>
+                <li>Fakultas Pertanian dan Peternakan (Faptertek)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Ciri Khas & Keunggulan</h2>
+            <div class="blockquote">
+                <strong>Integrasi Ilmu (Sains dan Islam):</strong> Mahasiswa jurusan teknik atau ekonomi tetap mendapatkan mata kuliah dasar keislaman. Sebaliknya, mahasiswa jurusan agama dibekali dengan perspektif modern yang relevan.
+            </div>
+            <ul>
+                <li><strong>Akreditasi:</strong> Telah meraih akreditasi <strong>Unggul/A</strong> dari BAN-PT.</li>
+                <li><strong>Keragaman Mahasiswa:</strong> Menjadi pilihan populer bagi mahasiswa internasional, seperti dari Malaysia, Thailand, dan Kamboja.</li>
+                <li><strong>Budaya Religius:</strong> Suasana kampus kental dengan nilai Islam dan kewajiban berbusana muslim/muslimah yang rapi.</li>
+            </ul>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Halaman Informasi UIN Suska Riau</p>
+    </footer>
+
+</body>
+</html>
